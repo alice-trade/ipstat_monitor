@@ -1,0 +1,11 @@
+Collector of the traffic on the basis of pcap-library. 
+Data are aggregated and saved under the scheme "DetailHostMatrix Aggregation Schemes" Cisco NetFlow FlowCollector. 
+Data are kept in the form of gzip-files or deduced in stdout.
+
+Options:
+    -p 		- use promisc mode
+    -o 		- output to stdout
+    -t  dir     - select dir to unload
+    -r rule	- libpcap rule to capture packets
+    -i interface- network interface to listen
+    -1 timeout	- period unload traffics (sec.)

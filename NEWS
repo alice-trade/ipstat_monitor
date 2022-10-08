@@ -1,0 +1,16 @@
+2005-12-23: Version 0.4
+ - Support of FreeBSD; 
+ - Use of streams pthread; 
+ - Refusal of library glib; 
+ - Optimization of a code.
+
+2005-12-20: Version 0.3
+ - The Name of a file of aggregations now contains the address of the listened interface; 
+ - The conclusion of a field protocol in the scheme "DetailHostMatrix Aggregation" is expanded; 
+ - In the distribution kit are included up/down scripts for the control of dynamic interfaces; 
+ - Creation of a pid-file according to a name of the interface. A name of a created pid-file:/var/run/ipstat_monitor.{dev}; 
+ - The format of catalogues concerning the set root Is changed: {date}/{ip_iface}/{ip_iface}.hhmm.gz
+
+2005-11-21: Version 0.2
+ - The opportunity of use of the utility through pipe is added, the option -o allows to save results of aggregation in stdout.
+ 
